@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="677.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="437.0" fitWidth="677.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagen/colores.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="-7.0" layoutY="-7.0" prefHeight="430.0" prefWidth="501.0" style="-fx-background-color: #AE12C055;">
+         <children>
+            <JFXButton layoutX="38.0" layoutY="228.0" prefHeight="36.0" prefWidth="80.0" style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-background-color: white;" text="ABOUT US" textFill="#9d1b7d" />
+            <Label layoutX="36.0" layoutY="153.0" prefHeight="68.0" prefWidth="257.0" text="Create Your Own Account" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="126.0" layoutY="229.0" prefHeight="36.0" prefWidth="80.0" style="-fx-border-radius: 10; -fx-background-radius: 10; -fx-border-color: white;" text="SIGN IN" textFill="WHITE" />
+         </children>
+      </Pane>
+      <VBox layoutX="492.0" prefHeight="423.0" prefWidth="185.0" style="-fx-background-color: #A2A0A0;">
+         <children>
+            <JFXTextField focusColor="#9d1b7d" labelFloat="true" maxHeight="10.0" maxWidth="125.0" minHeight="10.0" minWidth="125.0" prefHeight="10.0" prefWidth="125.0" promptText="FIRST NAME">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets left="40.0" top="60.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField focusColor="#9d1b7d" labelFloat="true" maxHeight="10.0" maxWidth="125.0" minHeight="10.0" minWidth="125.0" prefHeight="10.0" prefWidth="125.0" promptText="LAST NAME">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets left="40.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField focusColor="#9d1b7d" labelFloat="true" maxHeight="10.0" maxWidth="125.0" minHeight="10.0" minWidth="125.0" prefHeight="10.0" prefWidth="125.0" promptText="USERNAME">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets left="40.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField focusColor="#9d1b7d" labelFloat="true" maxHeight="10.0" maxWidth="125.0" minHeight="10.0" minWidth="125.0" prefHeight="10.0" prefWidth="125.0" promptText="E-MAIL">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets left="40.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField focusColor="#9d1b7d" labelFloat="true" maxHeight="10.0" maxWidth="125.0" minHeight="10.0" minWidth="125.0" prefHeight="10.0" prefWidth="125.0" promptText="PASSWORD">
+               <VBox.margin>
+                  <Insets left="40.0" top="20.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXPasswordField focusColor="#9d1b7d" labelFloat="true" maxHeight="10.0" maxWidth="125.0" minHeight="10.0" minWidth="125.0" prefHeight="10.0" prefWidth="125.0" promptText="RE-PASSWORD">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets left="40.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXTextField focusColor="#9d1b7d" labelFloat="true" maxHeight="10.0" maxWidth="125.0" minHeight="10.0" minWidth="125.0" prefHeight="10.0" prefWidth="125.0" promptText="PHONE NUMBER">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets left="40.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </JFXTextField>
+            <JFXToggleButton prefHeight="58.0" prefWidth="123.0" size="5.0" text="UNDER 18?" toggleColor="WHITE" toggleLineColor="#9d1b7d" unToggleColor="WHITE" unToggleLineColor="#dba2dd">
+               <VBox.margin>
+                  <Insets left="35.0" top="10.0" />
+               </VBox.margin>
+            </JFXToggleButton>
+            <JFXButton buttonType="RAISED" prefHeight="36.0" prefWidth="104.0" ripplerFill="#460046" style="-fx-border-color: #9d1b7d; -fx-border-radius: 10; -fx-background-radius: 10;" text="GET STARTED" textAlignment="CENTER" textFill="#9d1b7d">
+               <VBox.margin>
+                  <Insets left="45.0" top="20.0" />
+               </VBox.margin>
+            </JFXButton>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
